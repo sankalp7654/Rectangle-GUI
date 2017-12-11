@@ -5,7 +5,6 @@
  */
 
 /**
- *
  * @author Sankalp Saxena
  */
 public class Rec extends javax.swing.JFrame {
