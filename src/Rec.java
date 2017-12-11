@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Sandeep
+ * @author Sankalp Saxena
  */
 public class Rec extends javax.swing.JFrame {
 
@@ -201,7 +201,7 @@ public class Rec extends javax.swing.JFrame {
             double len,wid,area,peri;
             len=Double.parseDouble(this.jTextField1.getText());
             wid=Double.parseDouble(this.jTextField2.getText());
-            area=len+wid;
+            area=len*wid;
             peri=2*(len+wid);
             this.jTextField3.setText(String.format("%.2f", area));
             this.jTextField4.setText(String.format("%.2f", peri));
